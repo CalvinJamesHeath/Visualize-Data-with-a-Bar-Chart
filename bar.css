@@ -1,0 +1,28 @@
+body{
+    
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+svg{
+    background-color: #ffffff;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: grab;
+}
+h1 { color:#ffffff; font-family: 'Droid serif', serif; font-size: 46px; font-weight: 700; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center; text-decoration: underline; }
+
+.bar:hover{
+    fill: aqua;
+}
+#tooltip{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-bottom: 30px;
+
+}
